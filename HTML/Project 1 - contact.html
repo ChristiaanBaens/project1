@@ -16,6 +16,39 @@
 
 <body>
     <h2>Contactgegevens</h2>
+    <table><table>
+        <tr>
+            <td> Mail mij via <a href="mailto:baens.christiaan@hotmail.com">baens.christiaan@hotmail.com</a></td>
+        </tr>
+        <tr>
+            <td>Whatsapp of bel mij: <a href="tel:+32494612542">+32494612542</a></td>
+        </tr>
+        <tr>
+            <td><a href="http://www.linkedin.com/in/christiaan-baens-98a6831a7/">Connecteer met mij op LinkedIn </a></td>
+        </tr>
+    </table>
+    </table>
     <h2>Contactformulier</h2>
+        <form class="Formulier" action="Action_page.php" method="post">
+        <fieldset>
+                <label for="voornaam">Voornaam:</label> 
+                <input type="text" id="voornaam" name="voornaam"><br>
+                
+                <label for="Achternaam">Achternaam:</label>
+                <input type="text" id="Achternaam" name="Achternaam"><br>
+                
+                <label for ="E-mailadres">E-mailadres:</label>
+                <input type="email" id="E-mailadres" name="E-mailadres"> <br>
+
+                <label for="GSM-nummer">GSM-nummer: </label>
+                <input type="tel" id="GSM-nummer" name="GSM-nummer" pattern="[0-9]{4}/[0-9]{3}.[0-9]{3}"><br>
+
+                <label for="vraag">Mijn vraag is: </label> <br>
+                <textarea name="Mijn vraag" rows="10" cols="30"></textarea> <br>
+            
+
+                <input type="submit" value="submit">
+        </fieldset>
+        </form>
 </body>
 </html>
