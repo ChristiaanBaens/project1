@@ -32,20 +32,24 @@
         <form class="Formulier" action="Action_page.php" method="post">
         <fieldset>
                 <label for="voornaam">Voornaam:</label> 
-                <input type="text" id="voornaam" name="voornaam"><br>
+                <input type="text" id="voornaam" name="voornaam">
                 
                 <label for="Achternaam">Achternaam:</label>
-                <input type="text" id="Achternaam" name="Achternaam"><br>
-                
+                <input type="text" id="Achternaam" name="Achternaam">
+                <div></div>
                 <label for ="E-mailadres">E-mailadres:</label>
-                <input type="email" id="E-mailadres" name="E-mailadres"> <br>
+                <input type="email" id="E-mailadres" name="E-mailadres">
 
                 <label for="GSM-nummer">GSM-nummer: </label>
-                <input type="tel" id="GSM-nummer" name="GSM-nummer" pattern="[0-9]{4}/[0-9]{3}.[0-9]{3}"><br>
+                <input type="tel" id="GSM-nummer" name="GSM-nummer" pattern="[0-9]{4}/[0-9]{3}.[0-9]{3}">
+                <div></div>
 
-                <label for="vraag">Mijn vraag is: </label> <br>
-                <textarea name="Mijn vraag" rows="10" cols="30"></textarea> <br>
-            
+                <label for="onderwerp">Onderwerp: </label>
+                <input type="text" id="onderwerp" name="onderwerp">
+                <div> <label for="vraag">Mijn vraag is: </label> </div>
+                <div>
+                    <textarea name="Mijn vraag" rows="10" cols="30"></textarea>
+                </div>
 
                 <input type="submit" value="submit">
         </fieldset>

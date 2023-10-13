@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300 &display=swap');
 body{
-    background-color: white; color:black; font-family: 'open sans', sans-serif; font-size: 12px;
+    background-color: white; color:black; font-family: 'open sans', sans-serif; font-size: 16px; margin-left: 20px; padding: 25px;
 }
 
+/* navigatiebalk*/ 
 .nav{
     list-style-type: none;
     margin:0; padding: 5; overflow:none; border-color: #69FFBE; color: white; text-align-last:right;
@@ -28,4 +29,42 @@ body{
 
 .huidig{
     background-color:white;
+}
+
+/* classes & id*/ 
+#naam {
+    color: white; background-color: #69FFBE;
+}
+
+.karakter{
+    border: 1px solid grey;
+    text-align: left;
+    white-space: 10px; 
+}
+/* headers*/ 
+
+h1{
+    color:  #0DC1FC
+}
+
+/* foto's*/ 
+.alignleft{
+    float:left;
+    object-fit: cover;
+    width: 250px;
+    height: 250px;
+    margin-right: 20px;
+    object-position: 0%;
+}
+
+.alignright{
+    float: right;
+    object-fit: cover;
+    object-position: 25% 25%;
+    margin-left: 20px;
+}
+
+.footer{
+    color: #0DC1FC;
+    opacity: 50%;
 }
