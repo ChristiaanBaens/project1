@@ -1,22 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="CSS/Project 1.css">
+    <link rel="stylesheet" href="CSS/Project1.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Contact</title>
+    <link rel="icon" href="Beeldmateriaal/Favicon/favicon-16x16.png" type="img/png" sizes="16x16">
 </head>
-<div class="nav">
-    <a href="/HTML/Project 1 - start.html">Home</a>
-    <a href="/HTML/Project 1 - cv.html">Mijn CV</a>
-    <a href="/HTML/Project 1 - ervaring.html">Ervaring</a>
-    <a href="/HTML/Project 1 - hobby's.html">Hobby's & Interesses</a>
-    <a  class="huidig" href="/HTML/Project 1 - contact.html">Contact</a>
-</div>
-
 <body>
+    <div class="nav">
+        <a href="/HTML/index.html">Home</a>
+        <a href="/HTML/cv.html">Mijn CV</a>
+        <a href="/HTML/ervaring.html">Ervaring</a>
+        <a href="/HTML/hobby.html">Hobby's & Interesses</a>
+        <a  class="huidig" href="/HTML/contact.html">Contact</a>
+    </div>
+
     <h2>Contactgegevens</h2>
-    <table><table>
+    <table>
         <tr>
             <td> Mail mij via <a href="mailto:baens.christiaan@hotmail.com">baens.christiaan@hotmail.com</a></td>
         </tr>
@@ -27,7 +28,7 @@
             <td><a href="http://www.linkedin.com/in/christiaan-baens-98a6831a7/">Connecteer met mij op LinkedIn </a></td>
         </tr>
     </table>
-    </table>
+   
     <h2>Contactformulier</h2>
         <form class="Formulier" action="Action_page.php" method="post">
         <fieldset>
@@ -48,11 +49,16 @@
                 <input type="text" id="onderwerp" name="onderwerp">
                 <div> <label for="vraag">Mijn vraag is: </label> </div>
                 <div>
-                    <textarea name="Mijn vraag" rows="10" cols="30"></textarea>
+                    <textarea id="vraag" name="Mijn vraag" rows="10" cols="30"></textarea>
                 </div>
 
                 <input type="submit" value="submit">
         </fieldset>
         </form>
+
+    <footer>
+        <p>Made by Christiaan Baens - 2023</p>
+    </footer>
 </body>
+
 </html>

@@ -60,6 +60,8 @@ h1{
 .alignright{
     float: right;
     object-fit: cover;
+    width: 250px;
+    height: 250px;
     object-position: 25% 25%;
     margin-left: 20px;
 }
